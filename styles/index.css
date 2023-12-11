@@ -17,6 +17,7 @@ body {
     width: 350px;
     min-width: 300px;
     height: 425px;
+    min-height: 390px;
     border: 4px solid black;
     border-radius: 15px;
     padding: 15px;
@@ -51,6 +52,7 @@ body {
     align-items: center;
     height: 50%;
     font-size: 2.5rem;
+    overflow: hidden;
 }
 .clear-delete {
     width: 100%;
