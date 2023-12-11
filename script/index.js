@@ -86,5 +86,18 @@ let currentOperation;
     displayBottom.textContent;
  });
 
- 
+//  clear and delete functionality
+ clearBtn.addEventListener('click',()=>{
+    displayBottom.innerText = '0';
+    displayTop.innerText = '';
+ });
+
+ deleteBtn.addEventListener('click',deleteNumber);
+
+ function deleteNumber(){
+    displayTop.textContent = displayTop.textContent
+    .toString()
+    .slice(0,-1)
+ }
+
  
